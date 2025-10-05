@@ -1,0 +1,36 @@
+2025-10-03 21:14:55 [ERROR]: Server error Cannot read properties of undefined (reading '_sanitizeBody')
+TypeError: Cannot read properties of undefined (reading '_sanitizeBody')
+    at httpLogger (C:\Users\PCS\Desktop\ai-global-tutor\backend\middleware\logger.js:20:18)
+    at Layer.handle [as handle_request] (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:280:10)
+    at correlationId (C:\Users\PCS\Desktop\ai-global-tutor\backend\middleware\logger.js:249:5)
+    at Layer.handle [as handle_request] (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:286:9
+{
+  "url": "/",
+  "method": "GET",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+}
+2025-10-03 21:14:55 [ERROR]: Server error Cannot read properties of undefined (reading '_sanitizeBody')
+TypeError: Cannot read properties of undefined (reading '_sanitizeBody')
+    at httpLogger (C:\Users\PCS\Desktop\ai-global-tutor\backend\middleware\logger.js:20:18)
+    at Layer.handle [as handle_request] (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:280:10)
+    at correlationId (C:\Users\PCS\Desktop\ai-global-tutor\backend\middleware\logger.js:249:5)
+    at Layer.handle [as handle_request] (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\PCS\Desktop\ai-global-tutor\backend\node_modules\express\lib\router\index.js:286:9
+{
+  "url": "/favicon.ico",
+  "method": "GET",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+}
